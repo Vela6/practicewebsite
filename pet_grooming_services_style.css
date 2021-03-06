@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+Body { 
+    background-color: #d6d6d6;
+}
+
+.header {
+    background: #38b38a;
+    text-align: start;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a{
+    display: flex;
+    justify-content: flex-end;
+}
+ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.carousel {
+    position: relative;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 100px;
+}
+
+.carousel-inner > .item {
+    width:440px;
+    height:160px;
+}
+.card-deck {
+    margin: 25px;
+    padding: 15px;
+}
+.footer,.push {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin: 10px;
+
+}
